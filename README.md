@@ -15,3 +15,8 @@ To integrate Git with Jenkins, you will need to install the Git plugin on your J
 Step 4: Run Jenkins Job to Pull Code from GitHub
 With Git integrated into Jenkins, you can now create a Jenkins job that pulls code from your Git repository. To do this, create a new Jenkins job and configure it to pull code from your repository. You will need to provide Jenkins with your Git repository URL, authentication credentials (if required), and any other necessary configuration settings.
 
+Step 5: Integrate Maven with Jenkins
+To integrate Maven with Jenkins, you will need to install the Maven plugin on your Jenkins server. You can do this by navigating to the "Manage Jenkins" page, clicking on "Manage Plugins", and searching for the Maven plugin. Once you have installed the plugin, you will need to configure Jenkins to use Maven for building your Java projects.
+
+Step 6: Build a  Project Using Jenkins
+Now that you have Git and Maven integrated into Jenkins, you can create a Jenkins job that builds your  project. To do this, create a new Jenkins job and configure it to pull code from your Git repository, compile your Java code using Maven, and package your applicatio
