@@ -20,3 +20,11 @@ To integrate Maven with Jenkins, you will need to install the Maven plugin on yo
 
 Step 6: Build a  Project Using Jenkins
 Now that you have Git and Maven integrated into Jenkins, you can create a Jenkins job that builds your  project. To do this, create a new Jenkins job and configure it to pull code from your Git repository, compile your Java code using Maven, and package your applicatio
+
+Step 7: Build is Failing
+If your build is failing, there are several things you can do to troubleshoot the issue. First, check the Jenkins console output to see if there are any error messages or stack traces that indicate what went wrong. You can also try running the build manually from the command line to see if you get the same error. If the issue persists, you may need to review your build script or configuration settings to ensure that everything is set up correctly.
+
+INTEGRATING TOM CAT SERVER IN CI/CD PIPELINE
+
+Step 1: Setup a Tomcat Server
+First, we will need to set up a Tomcat server. We can download the Tomcat installer from the official website and install it on a server.
